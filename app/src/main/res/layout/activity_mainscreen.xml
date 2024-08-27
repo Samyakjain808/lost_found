@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sc"
+    tools:context=".mainscreen">
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="97dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/no"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-100dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="208dp"
+        android:layout_height="224dp"
+        android:src="@drawable/default_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="56dp"
+        android:padding="7dp"
+        android:text="Date of shown: 25/04/23"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageshow"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/name_of_item"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:padding="7dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
